@@ -2,10 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"name": "gameDev",
-			"path": ".."
 		}
 	],
 	"settings": {
