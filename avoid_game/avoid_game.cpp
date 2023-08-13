@@ -11,6 +11,12 @@ int main()
     int circle_x{175};
     int circle_y{100};
 
+    // rectangle coordinates
+    int rectangle_x{300};
+    int rectangle_y{0};
+    int rectangle_height{50};
+    int rectangle_width{50};
+
     SetTargetFPS(60);
     while (WindowShouldClose() != true)
     {
@@ -20,6 +26,7 @@ int main()
         // Game logic begins
 
         DrawCircle(circle_x, circle_y, 25, RED);
+        DrawRectangle(rectangle_x, rectangle_y, rectangle_height, rectangle_width, BLUE);
 
         if (IsKeyDown(KEY_A) && circle_x > 0)
         {
